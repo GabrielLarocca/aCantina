@@ -1,0 +1,54 @@
+.containerBanner {
+	width: 100%;
+	height: 144px;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	margin-bottom: 24px;
+	background-image: url('/images/Banner.png');
+}
+
+.container {
+	padding: 24px 20px;
+}
+
+.buttonInicial {
+	height: 64px;
+	background: #FFFFFF;
+	border: 1px solid #DCDDDE;
+	border-radius: 4px;
+	padding: 0px 20px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	margin-bottom: 12px;
+	cursor: pointer;
+}
+
+.buttonInicial p {
+	font-family: 'Inter', sans-serif;
+	font-style: normal;
+	font-weight: 700;
+	font-size: 16px;
+	line-height: 24px;
+	color: #1E252C;
+	margin: 0;
+}
+
+@media screen and (min-width: 992px) {
+	.containerBanner {
+		background-image: url('/images/BannerDesktop.png');
+		height: 280px;
+	}
+
+	.containerBtns {
+		display: grid;
+		grid-template-columns: 1fr 1fr 1fr 1fr;
+		gap: 12px;
+		row-gap: 16px;
+	}
+
+	.buttonInicial {
+		margin-bottom: 0;
+	}
+}

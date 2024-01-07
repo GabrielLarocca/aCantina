@@ -1,0 +1,133 @@
+.layout-admin{
+	height: 100%;
+	background: #E5E5E5;
+	display: flex;
+
+	.fake-menuleft{
+		width: 224px;
+		height: 100%;
+		background: #1E252C;
+		padding-top: 28px;
+		display: flex;
+		flex-direction: column;
+		flex: none;
+	}
+
+	.menu-left{
+		display: flex;
+		flex-direction: column;
+		flex: none;
+		position: fixed;
+
+		a{
+			color: none !important;
+			text-decoration: none !important;
+		
+		}
+
+		.logo{
+			width: 90px;
+			height: 30px;
+			background-position: center;
+			background-repeat: no-repeat;
+			background-size: contain;
+			margin-bottom: 46px;
+			margin-left: 28px;
+		}
+
+		.leave-container{
+			margin-top: auto;
+
+			hr{
+				margin-top: auto;
+				color: #384047;
+				margin-right:16px;
+				margin-left:16px;
+			}
+		}
+
+		width: 224px;
+		height: 100%;
+		background: #1E252C;
+		padding-top: 28px;
+	}	
+
+	.navbar-active{
+		background: #384047;
+		border-left: 2px solid #1AD888 !important;
+
+		svg{
+			color: #FFFFFF !important;
+		}
+
+		p{
+			color: #FFFFFF !important;
+		}
+	}
+	
+
+	.navbar-item{
+		display: flex;
+		color: #fff;
+		align-items: center;
+		height: 48px;
+		width: 100%;
+		border-left: 2px solid #1E252C;
+		cursor: pointer;
+
+		svg{
+			margin-left: 30px;
+			color: #A4A6A7;
+		}
+
+		p{
+			margin-bottom: 0;
+			margin-left: 12px;
+			font-family: 'Inter';
+			font-style: normal;
+			font-weight: 500;
+			font-size: 16px;
+			line-height: 24px;
+			color: #A4A6A7;
+		}
+	}
+
+	.container-page-admin{
+		padding: 32px 24px;	
+		display: flex;
+		flex-direction: column;
+		flex-grow: 1;
+		height: 100%;
+
+		h3{
+			font-family: 'Inter';
+			font-style: normal;
+			font-weight: 600;
+			font-size: 24px;
+			line-height: 32px;
+			color: #0A1723;
+			margin-bottom: 24px;
+		}
+
+		.MuiOutlinedInput-root{
+			height: 48px !important;
+		
+			fieldset{
+				top: 0px;
+			}
+		}
+
+		.white-box{
+			padding: 20px;
+			background-color: #FFF;
+			border-radius: 8px;
+			box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+			margin-bottom: 16px;
+		}
+
+		.bottom-buttons{
+			display: flex;
+			justify-content: space-between;
+		}
+	}
+}
