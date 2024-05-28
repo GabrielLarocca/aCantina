@@ -2,8 +2,6 @@ import React from "react";
 import { Navigate, Route, Routes as Switch } from "react-router-dom";
 import { useSelector } from "react-redux";
 
-import ErrorsPage from "../pages/errors/ErrorsPage";
-
 import AuthPage from "../pages/auth/AuthPage";
 // import Dashboard from "../pages/dashboard/Dashboard";
 
@@ -67,8 +65,6 @@ const Routes = () => {
 
 
 				)}
-
-			<Route path="/error" element={ErrorsPage} />
 		</Switch>
 	);
 };

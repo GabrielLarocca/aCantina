@@ -61,7 +61,7 @@ function Layout(props) {
 				<div className="logo" style={{ backgroundImage: 'url(images/ACantina_logoWhite.svg)' }} />
 
 				{pages.map((page, index) => (
-					<Link to={page.path}>
+					<Link key={index} to={page.path}>
 						<div className={`navbar-item ${window?.location?.href.includes(page.path) && 'navbar-active'} `}>
 							{iconSwitch(page.name)}
 
